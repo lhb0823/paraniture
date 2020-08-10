@@ -2,21 +2,21 @@
 *,::after,::before {
 	box-sizing:border-box
 }
-@FONT-FACE {font-family:"The Redlight Free";src:url("/header/font/handwriting/The_Redlight_Free.woff");}
-@FONT-FACE {font-family:"scdream1";src:url("/header/font/S-Core/scdream1.woff");}
-@FONT-FACE {font-family:"scdream2";src:url("/header/font/S-Core/scdream2.woff");}
-@FONT-FACE {font-family:"scdream3";src:url("/header/font/S-Core/scdream3.woff");}
-@FONT-FACE {font-family:"scdream4";src:url("/header/font/S-Core/scdream4.woff");}
-@font-face { font-family: 'MaplestoryOTFBold'; src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_20-04@2.1/MaplestoryOTFBold.woff') format('woff'); font-weight: normal; font-style: normal; }
-@font-face { font-family: 'RIDIBatang'; src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_twelve@1.0/RIDIBatang.woff') format('woff'); font-weight: normal; font-style: normal; }
-@font-face { font-family: 'arima_bold'; src: url('/header/font/arima/ArimaKoshi-Bold.otf') format('opentype') } 
-@font-face { font-family: 'GoyangDeogyang'; src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_one@1.0/GoyangDeogyang.woff') format('woff'); font-weight: 300; font-style: normal; }
-@font-face { font-family: 'alien'; src: url('/header/font/alien/THE_Oegyeinseolmyeongseo.ttf') format('truetype'); font-weight: normal; font-style: normal; }
-@font-face { font-family: 'yanolja'; src: url('/header/font/win_ttf/yanoljaBold.ttf') format('truetype'); font-weight: normal; font-style: normal; }
-@font-face { font-family: 'bing'; src: url('/header/font/binggure/BinggraeTaom-Bold.ttf') format('truetype'); font-weight: normal; font-style: normal; }
-@font-face { font-family: 'netM'; src: url('/header/font/netmarble/netmarbleM.ttf') format('truetype'); font-weight: normal; font-style: normal; }
-@font-face { font-family: 'netl'; src: url('/header/font/netmarble/netmarbleL.ttf') format('truetype'); font-weight: normal; font-style: normal; }
-@font-face { font-family: 'netB'; src: url('/header/font/netmarble/netmarbleB.ttf') format('truetype'); font-weight: normal; font-style: normal; }
+@FONT-FACE {font-family:"The_Redlight_Free";src:url("/paraniture/font/handwriting/The_Redlight_Free.woff");}
+@FONT-FACE {font-family:"scdream1";src:url("/paraniture/header/font/S-Core/scdream1.woff");}
+@FONT-FACE {font-family:"scdream2";src:url("/paraniture/header/font/S-Core/scdream2.woff");}
+@FONT-FACE {font-family:"scdream3";src:url("/paraniture/header/font/S-Core/scdream3.woff");}
+@FONT-FACE {font-family:"scdream4";src:url("/paraniture/header/font/S-Core/scdream4.woff");}
+@font-face { font-family:'MaplestoryOTFBold'; src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_20-04@2.1/MaplestoryOTFBold.woff') format('woff'); font-weight: normal; font-style: normal; }
+@font-face { font-family:'RIDIBatang'; src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_twelve@1.0/RIDIBatang.woff') format('woff'); font-weight: normal; font-style: normal; }
+@font-face { font-family:'arima_bold'; src: url('/paraniture/header/font/arima/ArimaKoshi-Bold.otf') format('opentype') } 
+@font-face { font-family:'GoyangDeogyang'; src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_one@1.0/GoyangDeogyang.woff') format('woff'); font-weight: 300; font-style: normal; }
+@font-face { font-family:'alien'; src: url('/paraniture/header/font/alien/THE_Oegyeinseolmyeongseo.ttf') format('truetype'); font-weight: normal; font-style: normal; }
+@font-face { font-family:'yanolja'; src: url('/paraniture/header/font/win_ttf/yanoljaBold.ttf') format('truetype'); font-weight: normal; font-style: normal; }
+@font-face { font-family:'bing'; src: url('/paraniture/header/font/binggure/BinggraeTaom-Bold.ttf') format('truetype'); font-weight: normal; font-style: normal; }
+@font-face { font-family:'netM'; src: url('/paraniture/header/font/netmarble/netmarbleM.ttf') format('truetype'); font-weight: normal; font-style: normal; }
+@font-face { font-family:'netl'; src: url('/paraniture/header/font/netmarble/netmarbleL.ttf') format('truetype'); font-weight: normal; font-style: normal; }
+@font-face { font-family:'netB'; src: url('/paraniture/header/font/netmarble/netmarbleB.ttf') format('truetype'); font-weight: normal; font-style: normal; }
 
 footer {
 	background-color:#FFFBEA!important
@@ -262,7 +262,7 @@ template {
 
 
 .cursive {
-	font-family:The Redlight Free;
+	font-family:The_Redlight_Free;
 	font-size:30px;
 }
 .h1,h1 {
