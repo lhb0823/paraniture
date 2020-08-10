@@ -2,7 +2,7 @@
 *,::after,::before {
 	box-sizing:border-box
 }
-@FONT-FACE {font-family:"The Redlight Free";src:url("/header/font/handwriting/The Redlight Free.woff");}
+@FONT-FACE {font-family:"The Redlight Free";src:url("/header/font/handwriting/The_Redlight_Free.woff");}
 @FONT-FACE {font-family:"scdream1";src:url("/header/font/S-Core/scdream1.woff");}
 @FONT-FACE {font-family:"scdream2";src:url("/header/font/S-Core/scdream2.woff");}
 @FONT-FACE {font-family:"scdream3";src:url("/header/font/S-Core/scdream3.woff");}
