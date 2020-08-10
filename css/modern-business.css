@@ -6,7 +6,15 @@
 body {
   padding-top: 56px;
 }
-
+.card:hover{
+	box-shadow:10px 10px 20px grey;
+}
+.card {
+	transition:all 0.5s ease; 
+		-webkit-transition:all 0.5s ease; 
+		-moz-transition:all 0.5s ease;
+		 -o-transition:all 0.5s ease;
+}
 .carousel-item {
   height: 65vh;
   min-height: 300px;
@@ -19,4 +27,11 @@ body {
 
 .portfolio-item {
   margin-bottom: 30px;
+}
+::selection {
+  color: #fff;
+  background-color: #ff9d34;
+}
+.container2{
+	margin-top:60px;
 }

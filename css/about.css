@@ -1,0 +1,589 @@
+/********** ������� **********/
+/* [�������] ������� */
+.about_summary .title_img {margin-bottom:5%}
+.about_summary .title_img img {width:100%}
+.about_summary .sub_txt {overflow:hidden;}
+.about_summary .sub_txt .first_word {float:left;padding:15px 10px 0 0;font-size:2.26em;color:#111;font-weight:normal}
+.about_summary .tbl_comm {margin:4% 0}
+.about_summary .tbl_comm tr td{text-align:left;border-left:0}
+.about_summary .btn_area {margin-bottom:15%}
+.about_summary .btn_area .btn_link {width:46%}
+.about_summary .wrap_download {overflow:hidden;padding:5.5% 5% 4% 5%;background:#f0f0f0}
+.about_summary .wrap_download .cover_download {float:left;width:44%;margin-right:6.7%}
+.about_summary .wrap_download .cover_download img {width:100%}
+.about_summary .wrap_download .list_download {float:left;width:49.112%}
+.about_summary .wrap_download .list_download .title_down {display:block;padding-top:10px;color:#111;font-weight:normal;text-align:center}
+.about_summary .wrap_download .list_download .title_down .wrap_txt {display:inline-block;overflow:hidden;text-align:center}
+.about_summary .wrap_download .list_download .title_down strong {display:block;float:left;padding-right:5px;line-height:1.6em;font-family:'LGSmHanSB';font-size:1.625em;color:#a50034;font-weight:normal;letter-spacing:-0.05em}
+.about_summary .wrap_download .list_download .title_down em {float:left;font-size:1.5em;line-height:1.6em;font-family:'LGSmHanR';text-align:left;letter-spacing:-0.05em}
+.about_summary .wrap_download .list_download .title_down span {padding:12px 0 0 5px;font-size:0.6em;line-height:1.6em;color:#999;letter-spacing:-0.05em}
+.about_summary .wrap_download .list_download .order_down {overflow:hidden;margin-bottom:20px;padding:25px 0;border-top:1px solid #dadada;border-bottom:1px solid #dadada}
+.about_summary .wrap_download .list_download .order_down li {float:left;position:relative;width:50%;margin-top:6px;padding:0 3%;line-height:1.4em;font-size:0.87em;color:#333;box-sizing:border-box}
+.about_summary .wrap_download .list_download .order_down li:before {display:block;position:absolute;top:0.52em;left:0;width:3px;height:3px;border-radius:50%;background:#666;content:''}
+.about_summary .wrap_download .list_download .btn_area {margin-bottom:0;text-align:center}
+
+/* [�������] ���� */
+.about_history .top_history {margin-bottom:6.8%;padding-bottom:5.6%;border-bottom:1px solid #e0e0e0;text-align:center}
+.about_history .top_history .cmt_history {display:block;margin-bottom:15px;font-family:'LGSmHanL';font-size:1.5em;color:#111}
+.about_history .top_history .tit_history {display:inline-block;position:relative;margin-bottom:4%;padding:0 30px;font-family:'LGSmHanSB';font-size:2.5em;color:#111;font-weight:normal}
+.about_history .top_history .tit_history:before {display:block;position:absolute;top:10px;left:0;width:17px;height:14px;background:url(/lgekor/asset/company/images/common/ico.png) -100px -360px no-repeat;content:''}
+.about_history .top_history .tit_history:after {display:block;position:absolute;top:10px;right:0;width:17px;height:14px;background:url(/lgekor/asset/company/images/common/ico.png) -120px -360px no-repeat;content:''}
+.about_history .top_history .sub_txt {text-align:left}
+.about_history .top_history .rolling_history {overflow:hidden;max-height:145px;margin-top:3%;padding:0 5%}
+.about_history .top_history .rolling_history .bx-wrapper {margin:0 auto}
+.about_history .top_history .rolling_history .list_img {font-size:0}
+.about_history .top_history .rolling_history .list_img li {display:inline-block;width:33.3%;padding:0 1%;box-sizing:border-box}
+.about_history .top_history .rolling_history .list_img li img {width:100%}
+.about_history .tab_history {display:block;overflow:hidden;max-width:1000px;width:100%;margin-bottom:6%}
+.about_history .tab_history li {display:block;float:left;width:24.7%;border-bottom:2px solid #fff;border-left:2px solid #fff}
+.about_history .tab_history li:nth-child(4n+1) {border-left:none}
+.about_history .tab_history li a {display:block;height:50px;line-height:50px;font-size:1em;color:#111;text-align:center;background:#eee;letter-spacing:-0.05em}
+.about_history .tab_history li.active a {background:#a50034;color:#fff}
+.about_history .tab_history li > a .term_tit {display:inline-block;vertical-align:middle}
+.about_history .tab_history li > a .term_year {display:inline-block;vertical-align:middle}
+.about_history .tab_history_cont {display:none}
+.cont_history .tit_term {width:200px;height:60px;margin:0 auto;padding:0 1%;line-height:60px;font-size:1.25em;color:#fff;text-align:center;font-weight:normal;background:#b00037;border-radius:50px;box-sizing:border-box;transition:0.3s}
+.cont_history .innr {overflow:hidden;position:relative;padding-top:5%;background:url(/lgekor/asset/company/images/about/history_line.jpg) 50% 0 repeat-y;transition:0.3s}
+.cont_history .innr:after {display:block;position:absolute;bottom:0;left:50%;width:5px;height:5px;margin-left:-2px;background:#eee;border-radius:50%;content:''}
+.cont_history .innr .group_year {overflow:hidden;position:relative;width:51%;min-height:90px;letter-spacing:-0.03em;box-sizing:border-box;transition:0.3s}
+.cont_history .innr .group_year:nth-child(odd) {float:right;padding-left:142px}
+.cont_history .innr .group_year:nth-child(even) {float:left;padding-right:142px}
+.cont_history .innr .group_year.gap_up {margin-top:-20px}
+.cont_history .innr .group_year .tit_year {display:block;position:relative;width:70px;font-family:'LGSmHanSB';font-size:1.5em;color:#a50034;font-weight:normal;word-break:break-all}
+.cont_history .innr .group_year:nth-child(odd) .tit_year {float:left;margin-left:-132px;padding-left:45px}
+.cont_history .innr .group_year:nth-child(even) .tit_year {float:right;margin-right:-132px;padding-right:45px}
+.cont_history .innr .group_year .tit_year:after {display:block;position:absolute;top:8px;width:37px;height:17px;content:''}
+.cont_history .innr .group_year:nth-child(odd) .tit_year:after {left:-8px;background:url(/lgekor/asset/company/images/common/ico_m.png) -100px -100px no-repeat;background-size:250px 300px;content:''}
+.cont_history .innr .group_year:nth-child(even) .tit_year:after {right:-8px;background:url(/lgekor/asset/company/images/common/ico_m.png) -100px -120px no-repeat;background-size:250px 300px;content:''}
+.cont_history .innr .group_year .list_year li {position:relative;padding:6px 0;font-family:'LGSmHanL';line-height:1.75em;font-size:0.875rem;color:#333}
+.cont_history .innr .group_year:nth-child(odd) .list_year li {padding-left:45px}
+.cont_history .innr .group_year:nth-child(even) .list_year li {padding-right:45px;text-align:right}
+.cont_history .innr .group_year .list_year .tit_month {position:absolute;top:6px;font-family:'LGSmHanR';color:#333}
+.cont_history .innr .group_year:nth-child(odd) .list_year .tit_month {left:0}
+.cont_history .innr .group_year:nth-child(even) .list_year .tit_month {right:0}
+.cont_history .innr .group_year .list_year li.tit_none {padding-left:0;padding-right:0}
+
+/* [�������] ����Ұ� */
+.about_business .sub_strapline {margin-bottom:6%}
+.about_business .box_circle .sub_txt {margin-bottom:4%;}
+.about_business .box_circle .sub_txt:last-child {margin-bottom:0}
+.about_business .box_circle:last-child {margin-bottom:0;padding-bottom:0}
+.wrap_milestone .wrap_title {display:table;table-layout:fixed;width:100%;min-height:50px;padding-bottom:3%}
+.wrap_milestone .wrap_title li {display:table-cell;text-align:center}
+.wrap_milestone .wrap_title .tit_year {display:inline-block;position:relative;width:94%;max-width:160px;max-height:48px;padding:3% 0 4% 0;font-family:'LGSmHanSB';line-height:1.125em;font-weight:normal;font-size:1.125em;text-align:center;color:#fff;background:#4e4e4e;border-radius:30px;white-space:nowrap}
+.wrap_milestone .wrap_title .tit_year:before {display:block;position:absolute;bottom:-15px;left:50%;width:1px;height:15px;background:#b4b8be;content:''}
+.wrap_milestone .wrap_title .tit_year:after {display:block;position:absolute;bottom:-22px;left:50%;width:5px;height:5px;margin-left:-2.6px;border:1px solid #b4b8be;border-radius:50%;content:''}
+.wrap_milestone .wrap_list {display:table;table-layout:fixed;width:100%;padding:6.5% 0 4% 0;background:#f5f5f5 url(/lgekor/asset/company/images/about/milestone_bg.jpg) 0 0 repeat-x;background-size:33.3%}
+.wrap_milestone .wrap_list .box_mile {display:table-cell;padding:0 2%;border-right:1px solid #dedede}
+.wrap_milestone .wrap_list .box_mile:last-child {border-right:none}
+.wrap_milestone .wrap_list .box_mile .list_mile {margin-bottom:32px}
+.wrap_milestone .wrap_list .box_mile .list_mile dt {margin-bottom:5px;font-family:'LGSmHanB';font-size:1rem;color:#111}
+.wrap_milestone .wrap_list .box_mile .list_mile dd {margin-bottom:10px;font-family:'LGSmHanL';line-height:1.5em;font-size:0.85em;color:#333}
+.wrap_milestone .wrap_list .box_mile .list_mile dd:last-child {margin-bottom:0}
+
+/* [�������] �濵�� */
+.about_management .box_profile {overflow:hidden;width:483px;height:170px;border:1px solid #dadada;background:#fff}
+.about_management .box_profile .profile_photo {overflow:hidden;float:left;width:245px;line-height:0}
+.about_management .box_profile .profile_info {float:left;width:238px;height:100%;padding:3% 3% 0 3%;box-sizing:border-box}
+.about_management .box_profile .profile_info em {display:block; min-height: 40px; font-size:0.87em;color:#666}
+.about_management .box_profile .profile_info strong {display:block;padding-bottom:10px;margin-bottom:25px;font-size:1.625em;color:#111;font-weight:normal;white-space:nowrap}
+.about_management .box_profile .profile_info span {display:block;font-family:'LGSmHanL';font-size:0.74em;color:#999;line-height:1.35em;letter-spacing:-0.03em}
+.about_management .box_profile.ceo_profile {margin:0 auto;margin-bottom:10%}
+.about_management .wrap_profile {overflow:hidden;margin-bottom:10%}
+.about_management .wrap_profile .box_profile {float:left;margin-bottom:3%}
+.about_management .wrap_profile .box_profile:nth-child(2n-1) {margin-right:30px}
+.about_management .wrap_profile:last-child {margin-bottom:0}
+
+/* [�������] �귣�� */
+.about_brand .brand_symbol {overflow:hidden;margin-bottom:6%;padding:4% 5%;background:#e5e5e5;box-sizing:border-box}
+.about_brand .brand_symbol .img_symbol {float:left;width:43.3%;min-width:250px;margin-right:5.5%;text-align:center}
+.about_brand .brand_symbol .img_symbol .symbol_mark img {width:100%}
+.about_brand .brand_symbol .img_symbol .btn_fileDown {width:118px;margin-top:2%;padding-left:30px}
+.about_brand .brand_symbol .img_symbol .btn_fileDown.file_mobile {display:none}
+.about_brand .brand_symbol .info_symbol {float:right;width:50%}
+.about_brand .brand_symbol .info_symbol .info_txt {line-height:1.625em;font-family:'LGSmHanL';font-size:1rem;color:#333}
+.about_brand .brand_symbol .info_symbol .info_txt .five_element > strong {font-family:'LGSmHanR';color:#a50034;font-weight:normal}
+.about_brand .brand_symbol .info_symbol .info_title {display:block;margin:3% 0 5% 0;font-size:1.25em;color:#333;font-family:'LGSmHanSB';}
+.about_brand .attention_txt {margin-top:5%}
+.about_brand .brand_link {color:#a50034}
+.about_brand .box_circle .brand_img {margin-bottom:2%}
+.about_brand .box_circle .brand_img img {width:100%}
+.about_brand .wrap_color {overflow:hidden;margin-bottom:2%;padding:40px 3% 30px 3%;border:1px solid #dadada;background:url(/lgekor/asset/company/images/about/brand_bg.png) 0 0 repeat;box-sizing:border-box}
+.about_brand .wrap_color .color_system {float:left;width:32%;margin-left:2%}
+.about_brand .wrap_color .color_system:first-child {margin-left:0}
+.about_brand .wrap_color .color_system dt {height:50px;margin-bottom:20px;line-height:50px;text-align:center;font-size:0.875em;color:#fff;box-sizing:border-box}
+.about_brand .wrap_color .color_system.cs_red dt {background:#a50034}
+.about_brand .wrap_color .color_system.cs_gray dt {background:#6b6b6b}
+.about_brand .wrap_color .color_system.cs_white dt {border:1px solid #6b6b6b;background:#fff;color:#6b6b6b}
+.about_brand .wrap_color .color_system dd {line-height:1.875em;color:#333;font-size:0.85em;letter-spacing:-0.03em}
+.about_brand .list_blackDot {margin-top:3%}
+.about_brand .list_blackDot li {font-family:'LGSmHanL';font-size:1rem}
+
+/* [�������] �������ġ */
+.about_location .wrap_overflow {margin:5.6% 0 4% 0}
+.about_location .tit_paragraph {padding:0 5%}
+.about_location .tab_subcomm {margin:0}
+.about_location .tab_subcomm li:nth-child(4) {width:25%}
+.about_location .top_overseas {overflow:hidden;margin-bottom:6%}
+.about_location .top_overseas .img_overseas {float:left;width:40%}
+.about_location .top_overseas .img_overseas img {max-width:100%}
+.about_location .top_overseas .info_overseas {float:right;width:56%;padding-top:3%}
+.about_location .top_overseas .info_overseas .info_tit {margin-bottom:1%;font-family:'LGSmHanB';font-weight:normal;font-size:1.5rem;color:#333}
+.about_location .top_overseas .info_overseas .info_txt {font-size:1rem;line-height:1.875em;font-family:'LGSmHanL';color:#333}
+.about_location .addr_overseas {overflow:hidden}
+.about_location .addr_overseas .tbl_area {float:right;width:100%}
+.about_location .addr_overseas .wrap_sel_comm {float:right;margin-bottom:2%}
+.about_location .addr_overseas .wrap_sel_comm .sel_comm {margin-bottom:0}
+.about_location .addr_overseas .tbl_comm th {padding:3%;vertical-align:top;text-align:left}
+.about_location .addr_overseas .tbl_comm th .addr_tit {font-family:'LGSmHanB';font-weight:normal;font-size:1.375em;color:#000}
+.about_location .addr_overseas .tbl_comm th .addr_txt {font-weight:normal;font-family:'LGSmHanL';color:#333}
+.about_location .addr_overseas .tbl_comm th .addr_txt em {color:#000}
+.about_location .addr_overseas .tbl_comm th .addr_txt .txt01 {padding-right:5px}
+.about_location .addr_overseas .tbl_comm tr td{text-align:left;border-left:0;}
+.about_location .list_contact {padding-left:2%}
+.about_location .list_contact li {position:relative;margin-bottom:3%;padding:0 0 2.5% 20%;border-bottom:1px solid #e9e9e9;color:#333}
+.about_location .list_contact li:last-child {margin-bottom:0;padding-bottom:0;border-bottom:none}
+.about_location .list_contact li .tit {position:absolute;top:2px;left:1.5%;font-size:0.875em;color:#000;font-weight:normal;font-family:'LGSmHanSB'}
+.about_location .list_contact li .url_link {color:#3576b9;text-decoration:underline}
+.about_location .wrap_interior {overflow:hidden}
+.about_location .wrap_interior .box_inter {overflow:hidden;}
+.about_location .wrap_interior .box_inter > li {float:left;width:48%; margin-bottom:7%}
+.about_location .wrap_interior .box_inter > li:nth-child(even) {padding-left:4%}
+.about_location .wrap_interior .box_inter .tbl_comm tr th {text-align:center}
+.about_location .wrap_interior .box_inter .tbl_comm tr td {text-align:left}
+.about_location .wrap_interior .box_inter .top_inter {overflow:hidden;margin-bottom:3.5%;box-sizing:border-box}
+.about_location .wrap_interior .box_inter .top_inter .tit {float:left;line-height:36px;font-size:1.375em;font-family:'LGSmHanSB';font-weight:normal;color:#111}
+.about_location .wrap_interior .box_inter .top_inter .list_btnMap {float:right;max-width:295px;text-align:right;font-size:0}
+.about_location .wrap_interior .box_inter .top_inter .list_btnMap li {display:inline-block;margin-left:5px}
+.about_location .wrap_interior .box_inter .top_inter .list_btnMap li:first-child {margin-left:0}
+.about_location .wrap_interior .box_inter .top_inter .list_btnMap .btn_map {display:block;position:relative;height:36px;padding:0 26px 0 15px;border:1px solid #a0a0a0;line-height:36px;font-size:0.875rem;color:#111;box-sizing:border-box;border-radius:30px;letter-spacing:-0.03em}
+.about_location .wrap_interior .box_inter .top_inter .list_btnMap .btn_map:after {display:block;position:absolute;top:50%;right:12px;width:7px;height:11px;margin-top:-5.5px;background:url(/lgekor/asset/company/images/common/ico.png) -140px -360px no-repeat;content:''}
+.about_location .tel_val {display:none}
+
+/* [������LG] ������ö�� */
+.design_philosophy .tit_paragraph {padding:0 16%}
+.design_philosophy .wrap_pyramid {position:relative;width:100%;min-width:320px;height:490px}
+.design_philosophy .wrap_pyramid:after {display:block;clear:both;content:''}
+.design_philosophy .wrap_pyramid .left_prm {width:50%;float:left;height:100%;text-align:right;font-size:0}
+.design_philosophy .wrap_pyramid .right_prm {width:50%;float:right;height:100%;text-align:left;font-size:0}
+.design_philosophy .wrap_pyramid .line_prm {display:inline-block;width:62%;height:1px;background:url(/lgekor/asset/company/images/about/prm_line.png) 0 0 repeat-x}
+.design_philosophy .wrap_pyramid .left_prm .line_prm {margin-top:219px}
+.design_philosophy .wrap_pyramid .left_prm .line_prm:first-child {margin-top:206px}
+.design_philosophy .wrap_pyramid .right_prm .line_prm {margin-top:261px}
+.design_philosophy .wrap_pyramid .right_prm .line_prm:first-child {margin-top:54px}
+.design_philosophy .wrap_pyramid .img_prm {position:absolute;top:0;left:0;width:100%;text-align:center;z-index:2}
+.design_philosophy .wrap_pyramid .list_pyramid {position:absolute;top:0;left:0;width:100%;z-index:3}
+.design_philosophy .wrap_pyramid .list_pyramid > li {position:relative;height:105px;margin-bottom:5px;font-family:'LGSmHanSB';font-weight:normal;font-size:1rem;color:#333;text-align:center}
+.design_philosophy .wrap_pyramid .list_pyramid > li:first-child {height:147px}
+.design_philosophy .wrap_pyramid .list_pyramid > li:last-child {height:118px;margin-bottom:0}
+.design_philosophy .wrap_pyramid .list_pyramid > li:before {display:inline-block;height:100%;width:0px;vertical-align:middle;content:''}
+.design_philosophy .wrap_pyramid .list_pyramid > li .tit_prm {display:inline-block;padding-top:30px;font-size:1.125em;line-height:1.35em;font-weight:normal}
+.design_philosophy .wrap_pyramid .list_pyramid > li:first-child .tit_prm {padding-top:80px;color:#fff}
+.design_philosophy .wrap_pyramid .list_pyramid > li .iden_unit {font-size:0}
+.design_philosophy .wrap_pyramid .list_pyramid > li .iden_unit > li {display:inline-block;width:70px;height:40px;margin:10px -10px 0 0;line-height:40px;font-size:1.125rem;color:#fff;font-weight:normal;background:rgba(0,0,0,0.2);border-radius:50px}
+.design_philosophy .wrap_pyramid .list_pyramid > li .txt_prm {position:absolute;top:30px}
+.design_philosophy .wrap_pyramid .list_pyramid > li:nth-child(odd) .txt_prm {left:80%;padding-left:40px;text-align:left;background:url(/lgekor/asset/company/images/about/pyramid_round.png) 0 13px no-repeat} 
+.design_philosophy .wrap_pyramid .list_pyramid > li:nth-child(even) .txt_prm {right:80%;padding-right:40px;text-align:right;background:url(/lgekor/asset/company/images/about/pyramid_round.png) 100% 13px no-repeat}
+.design_philosophy .wrap_pyramid .list_pyramid > li .txt_prm em {display:block;font-family:'LGSmHanSB';color:#111;font-size:1.125rem}
+.design_philosophy .wrap_pyramid .list_pyramid > li .txt_prm span {display:block;font-family:'LGSmHanL';color:#333;}
+
+/* [������LG] �����μ��� */
+.design_center .circle_tit {width:100%;margin-bottom:20px}
+.design_center .box_center .tit_center {display:block;width:95%;margin-bottom:30px;font-weight:normal;font-size:1.625em;color:#111;line-height:1.435em;letter-spacing:-0.02em;}
+.design_center .box_center .sub_txt {margin-bottom:30px;}
+.design_center .box_center .sub_txt:last-child {margin-bottom:0}
+.design_center .box_center.area_organ {margin-bottom:10%;padding:5% 5% 0 50%;background:url(/lgekor/asset/company/images/about/designCenter01.png) 0 0 no-repeat}
+.design_center .box_center.area_outcome {padding:20% 57% 0 5%;background:url(/lgekor/asset/company/images/about/designCenter02.png) 100% 0 no-repeat}
+.design_center .box_center.area_outcome .tit_center {text-align:right}
+.design_center .box_center.area_outcome .sub_txt {text-align:right}
+.design_center .cont_history {margin-top:40px}
+
+/* [������LG] ���������� */
+.design_people .top_people {margin-bottom:5%;text-align:center}
+.design_people .top_people .quote_txt {display:inline-block;position:relative;margin-bottom:15px;padding:0 20px;font-size:1.25em;color:#333;font-weight:normal;}
+.design_people .top_people .quote_txt:before {display:block;position:absolute;top:5px;left:0;width:10px;height:8px;background:url(/lgekor/asset/company/images/common/ico.png) 0 -340px no-repeat;content:''}
+.design_people .top_people .quote_txt:after {display:block;position:absolute;top:5px;right:0;width:10px;height:8px;background:url(/lgekor/asset/company/images/common/ico.png) -20px -340px no-repeat;content:''}
+.design_people .tab_subcomm li.on a{color:111;font-family:'LGSmHanSB';font-weight:normal}
+.design_people .info_profile {min-height:220px;margin-bottom:6%;padding:7% 0 0 9%}
+.design_people .info_profile.people_01 {background:url(/lgekor/asset/company/images/about/people01.jpg) 100% 50% no-repeat;background-size:cover}
+.design_people .info_profile.people_02 {background:#30333a}
+.design_people .info_profile.people_03 {background:#30333a}
+.design_people .info_profile.people_04 {background:#30333a}
+.design_people .info_profile.people_05 {background:#30333a}
+.design_people .info_profile.people_06 {background:#30333a}
+.design_people .info_profile .explain_profile {width:45%;margin-bottom:6%}
+.design_people .info_profile .explain_profile dt {margin-bottom:3%;font-family:'LGSmHanSB';font-size:1.875em;color:#fff}
+.design_people .info_profile .explain_profile dd {padding-left:20px;border-left:1px solid #dadada;font-family:'LGSmHanL';font-size:0.875em;color:#fff;line-height:1.75em;}
+.design_people .box_circle .explain_tit {margin-bottom:4%;font-weight:normal;font-size:1.375em;color:#333;letter-spacing:-0.03em}
+.design_people .box_circle .explain_tit.last_tit {margin-top:40px}
+.design_people .box_circle .explain_people {overflow:hidden}
+.design_people .box_circle .explain_people .img_left {float:left;width:50%;margin-right:25px}
+.design_people .box_circle .explain_people .img_left img {width:100%}
+.design_people .box_circle .explain_people .img_right {float:right;width:50%;margin-left:25px}
+.design_people .box_circle .explain_people .img_right img {width:100%}
+.design_people .box_circle .sub_txt {margin-bottom:30px}
+.design_people .box_circle .sub_txt:last-child {margin-bottom:0}
+
+/* [������LG] ��������Ʈ������ */
+.design_portfolio .tab_portfolio{display:table;table-layout:fixed;overflow:hidden;max-width:1000px;width:100%;margin-bottom:6%}
+.design_portfolio .tab_portfolio li{display:table-cell;border-left:2px solid #fff}
+.design_portfolio .tab_portfolio li:first-child{border-left:none}
+.design_portfolio .tab_portfolio li a{display:block;height:50px;line-height:50px;font-size:1em;color:#111;text-align:center;background:#eee}
+.design_portfolio .tab_portfolio li.active a{background:#a50034;color:#fff}
+.design_portfolio .box_product {overflow:hidden;margin-bottom:7%;padding-bottom:6%;border-bottom:1px solid #e0e0e0}
+.design_portfolio .box_product:last-child {margin-bottom:0;border-bottom:0}
+.design_portfolio .box_product .product_design {float:left;position:relative;width:30%;min-height:225px;padding:0 4.5% 8% 4.5%}
+.design_portfolio .box_product .product_design .bx-wrapper {margin:0 auto}
+.design_portfolio .box_product .product_design .bx-wrapper img {display:block;max-width:100%}
+.design_portfolio .box_product .product_design .bx-controls-direction a {display:block;position:absolute;top:50%;width:16px;height:31px;margin-top:-30px;text-indent:-9999px;font-size:0}
+.design_portfolio .box_product .product_design .bx-controls-direction .bx-prev {left:0;background:url(/lgekor/asset/company/images/common/ico.png) 0 -400px no-repeat}
+.design_portfolio .box_product .product_design .bx-controls-direction .bx-next {right:0;background:url(/lgekor/asset/company/images/common/ico.png) -20px -400px no-repeat}
+.design_portfolio .box_product .product_design .bx-pager {position:absolute;bottom:0;left:0;width:100%;text-align:center}
+.design_portfolio .box_product .product_design .bx-pager .bx-pager-item {display:inline-block;margin:0 5px}
+.design_portfolio .box_product .product_design .bx-pager .bx-pager-item a {display:block;width:12px;height:12px;font-size:0;text-indent:-9999px;background:#c3c3c5;border-radius:25px;transition:0.3s}
+.design_portfolio .box_product .product_design .bx-pager .bx-pager-item a.active {width:25px;background:#a50034}
+.design_portfolio .box_product .explain_design {float:right;width:54%}
+.design_portfolio .box_product .explain_design dt {margin-bottom:5%;font-family:'LGSmHanSB';font-size:1.75em;color:#111}
+.design_portfolio .box_product .explain_design dt span {display:block;padding-top:1%;font-family:'LGSmHanR';font-size:1rem;color:#111}
+.design_portfolio .box_product .explain_design dd {margin-bottom:3%;line-height:1.75em;font-size:1rem;color:#666;}
+.design_portfolio .box_product .explain_design dd:last-child {margin-bottom:0}
+
+/*[�����濵] �����Թ� */
+.ethics_top .sub_txt{font-family:'LGSmHanL';padding:0 5%;text-align:center}
+.ethics_cont{margin-top:5%}
+.ethics_accor .sublist_cont li .cont_tit{margin-top:18px}
+.ethics_accor .sublist_cont li .list_order li{padding-left:25px}
+
+/*[�����濵] �ൿ���� */
+.level_ethics .tit_paragraph {margin-bottom:10px}
+.level_ethics .ethics_cont .list_conduct li{padding:5% 3%;font-family:'LGSmHanL';border-bottom:1px solid #e0e0e0}
+.level_ethics .ethics_cont .list_conduct li:first-child{padding-top:0}
+.level_ethics .ethics_cont .list_conduct li:last-child{border-bottom:1px solid #111}
+.level_ethics .ethics_cont .list_conduct li .conduct_tit{display:block;margin-bottom:2%;font-size:1.25rem;color:#000;font-family:'LGSmHanSB'}
+.level_ethics .ethics_cont .list_conduct li .conduct_txt {display:block;font-size:1rem;line-height:1.875em;color:#000;}
+.wrap_ethicsFile {margin-top:5%}
+.ethics_file {overflow:hidden;margin-top:4%;line-height:0;background:#f0f0f0}
+.ethics_file .area_img {float:left;width:50%}
+.ethics_file .area_img img {width:100%}
+.ethics_file .area_list {float:right;position:relative;width:50%;box-sizing:border-box}
+.ethics_file .area_list .empty_img {width:100%}
+.ethics_file .area_list .inner {position:absolute;top:0;left:0;width:100%;height:100%}
+.ethics_file .area_list .inner:before {display:inline-block;content:'';height:100%;width:0px;vertical-align:middle}
+.ethics_file .area_list .list_fileDown {display:inline-block;width:98%;padding:0 10%;font-size:0;box-sizing:border-box;vertical-align:middle}
+.ethics_file .area_list .list_fileDown li {display:inline-block;position:relative;width:46%;height:40px;padding-right:115px;line-height:20px;box-sizing:border-box}
+.ethics_file .area_list .list_fileDown li:first-child {margin-right:8%}
+.ethics_file .area_list .list_fileDown li:before {display:inline-block;content:'';height:100%;width:0px;vertical-align:middle}
+.ethics_file .area_list .list_fileDown li .btn_fileDown {position:absolute;top:0;right:0;width:115px}
+.ethics_file .area_list .list_fileDown li .file_name {display:inline-block;font-family:'LGSmHanL';color:#111;font-size:1rem;vertical-align:middle;}
+
+/*[�����濵] �����濵 ���α׷� */
+.level_program .program_top .sub_txt{font-family:'LGSmHanL';text-align:center}
+.wrap_listProgram {margin-top:6%;padding:5% 4%;border:1px solid #dadada;}
+.wrap_listProgram .list_program {overflow:hidden;}
+.wrap_listProgram .list_program:first-child {margin-bottom:50px;padding-bottom:50px;border-bottom:1px solid #dadada}
+.wrap_listProgram .list_program li {float:left;width:30%;font-size:1rem;line-height:1.7em;text-align:center;font-family:'LGSmHanL';box-sizing:border-box}
+.wrap_listProgram .list_program li:nth-child(2) {width:34%;margin:0 3%;padding:0 3%;border-left:1px solid #dadada;border-right:1px solid #dadada}
+.wrap_listProgram .list_program li:before {display:block;width:100%;height:110px;content:''}
+.wrap_listProgram .list_program .pg_01:before {background:url(/lgekor/asset/company/images/about/program_bg01.png) 50% 0 no-repeat;background-size:70px auto;}
+.wrap_listProgram .list_program .pg_02:before {background:url(/lgekor/asset/company/images/about/program_bg02.png) 50% 0 no-repeat;background-size:66px auto;}
+.wrap_listProgram .list_program .pg_03:before {background:url(/lgekor/asset/company/images/about/program_bg03.png) 50% 0 no-repeat;background-size:48px auto;}
+.wrap_listProgram .list_program .pg_04:before {background:url(/lgekor/asset/company/images/about/program_bg04.png) 50% 0 no-repeat;background-size:62px auto;}
+.wrap_listProgram .list_program .pg_05:before {background:url(/lgekor/asset/company/images/about/program_bg05.png) 50% 0 no-repeat;background-size:82px auto;}
+.wrap_listProgram .list_program .pg_06:before {background:url(/lgekor/asset/company/images/about/program_bg06.png) 50% 0 no-repeat;background-size:66px auto;}
+
+/*[�����濵] �����濵�ȳ�*/
+.level_guide .guide_box:last-child {margin-top:10%}
+.level_guide .guide_box .sub_txt {margin-bottom:5%}
+
+
+
+
+
+/********************************************************
+@media query [1024px]
+********************************************************/
+@media screen and (max-width:1024px){
+
+	/* [1024px][�������] ������� */	
+	#content.sub.about_summary {padding:5% 0 0 0}
+	#content.sub.about_summary .sub_txt {padding:0}
+
+	/* [1024px][�������] ���� */
+	.about_history .tab_history {padding:0 2%;box-sizing:border-box}
+
+	/* [1024px][�������] ����Ұ� */
+	.about_business .box_circle {padding:0 5% 6% 18%}
+	
+	/* [1024px][�������] �濵�� */
+	.about_management .box_profile .profile_photo {overflow:hidden;position:relative;width:50%;height:170px;text-align:center}
+	.about_management .box_profile .profile_photo img {position:absolute;top:0;left:50%;margin-left:-122.5px}
+	.about_management .box_profile .profile_info {width:50%}
+	.about_management .wrap_profile {padding:0 5%;box-sizing:border-box}
+	.about_management .wrap_profile .box_profile {width:49%}
+	.about_management .wrap_profile .box_profile {float:right}
+	.about_management .wrap_profile .box_profile:nth-child(2n-1) {float:left;margin-right:0}
+	.about_management .box_profile.ceo_profile {width:49%}
+
+	/* [1024px][�������] �������ġ*/
+	.about_location .top_overseas {padding:0 5%;box-sizing:border-box}
+	.about_location .addr_overseas {padding:0 5%}
+	.about_location .wrap_interior {padding:0 2%}
+	.about_location .wrap_interior .box_inter .top_inter {margin-bottom:2%}
+	.about_location .box_inter .tbl_comm tr th,.about_location .box_inter .tbl_comm tr td {white-space:initial;font-size:0.875em}
+	.about_location .wrap_overflow {margin:5.6% 2% 4% 2%}
+
+	/* [1024px][������LG] ������ö�� */
+	#content.sub.design_philosophy {overflow:hidden;box-sizing:border-box}
+	.design_philosophy .tit_paragraph {padding:0 5%}
+	.design_philosophy .wrap_pyramid {padding-bottom:20%}
+	.design_philosophy .wrap_pyramid .img_prm img {height:490px;transition:0.2s}
+	.design_philosophy .wrap_pyramid .list_pyramid > li.design_scheme .txt_prm {top:155px;right:50%;margin-right:-76px;padding-right:0;padding-top:40px;background-position:50% 0;text-align:center}
+	.design_philosophy .wrap_pyramid .list_pyramid > li.design_scheme .txt_prm:before {display:block;width:1px;height:50px;margin:-78px 0 20px 70px;background:url(/lgekor/asset/company/images/about/prm_line2.png) 0 0 repeat-y;content:''}
+	.design_philosophy .wrap_pyramid .left_prm .line_prm:last-child {display:none}
+
+	/* [1024px][�����濵] �����濵�ȳ� */
+	#content.sub.level_guide {padding:6% 0 0 0}
+	.level_guide .guide_box .wrap_pramid {border-left:none;border-right:none}
+	.level_guide .guide_box .wrap_graph {border-left:none;border-right:none}
+	.level_guide .guide_box .sub_txt {padding:0 5%}
+	
+	/* [1024px][�����濵] �ൿ���� */
+	.ethics_file {width:90%;margin:4% auto 0}
+	.ethics_file .area_list .list_fileDown {padding:0 4%}
+	.ethics_file .area_list .list_fileDown li:first-child {margin-right:5%}
+
+	/* [1024px][�����濵] �����濵���α׷� */
+	.level_program .program_cont .program_box .list_program {border:none}
+	.level_program .tit_paragraph {padding:0 5%}
+
+	/* [1024px][������LG] �����μ��� */
+	.design_center .box_center.area_organ {background-size:42% auto;background-position:5% 0}
+	.design_center .box_center.area_outcome {background-size:64% auto;background-position:90% 0}
+
+	/* [1024px][������LG] ���������� */
+	.design_people .top_people {padding:0 2%}
+
+	/* [1024px][������LG] ��������Ʈ������ */
+	.design_portfolio .tab_portfolio {padding:0 2%;box-sizing:border-box}
+	.design_portfolio .tab_portfolio_cont {padding:0 5%;box-sizing:border-box;overflow:hidden}
+
+}
+/********************************************************
+@media query [768px]
+********************************************************/
+@media screen and (max-width:768px){
+
+	/* [768px][�������] ������� */
+	.about_summary .sub_txt .first_word {float:none;padding:0;font-size:1em}
+	.about_summary .wrap_download {padding:7% 5% 10% 5%}
+	.about_summary .wrap_download .cover_download {float:none;width:54%;margin:0 auto}
+	.about_summary .wrap_download .list_download {float:none;width:100%}
+	.about_summary .wrap_download .list_download .btn_area .btn_fileDown {width:120px}
+	.about_summary .zip_code {display:block}
+
+	/* [768px][�������] ���� */
+	.about_history .tab_history li {display:none;float:none;width:100%;border-left:none;border-bottom:1px solid #fff}
+	.about_history .tab_history li.active {display:block}
+	.about_history .tab_history li a {padding:0 3%;text-align:left;font-size:1.125em}
+	.about_history .tab_history li.active a {background:#a50034 url(/lgekor/asset/company/images/common/tab_arr.png) 95% 50% no-repeat;background-size:15px auto}
+	.about_history .top_history .sub_txt {padding:0 5%;line-height:1.625em}
+	.about_history .top_history .rolling_history {position:relative;margin:3% 5% 0 5%;padding:0 9%}
+	.about_history .top_history .rolling_history .list_img li {width:auto;padding:0}
+	.about_history .top_history .rolling_history .bx-controls-direction a {display:block;position:absolute;top:50%;margin-top:-25px;width:20px;height:50px;font-size:0;text-indent:-999px}
+	.about_history .top_history .rolling_history .bx-prev {left:4%;margin-left:-10px;background:url(/lgekor/asset/company/images/common/ico.png) -100px -740px no-repeat}
+	.about_history .top_history .rolling_history .bx-next {right:4%;margin-right:-10px;background:url(/lgekor/asset/company/images/common/ico.png) -121px -740px no-repeat}
+	.cont_history {padding:0 5%}
+	.cont_history .tit_term {width:150px;height:50px;line-height:50px;margin:0}
+	.cont_history .innr {background-position:20px 0}
+	.cont_history .innr:after {left:18px;margin-left:0} 
+	.cont_history .innr .group_year {width:100%;margin-bottom:7%}
+	.cont_history .innr .group_year:nth-child(odd) {float:none;padding-left:20px}
+	.cont_history .innr .group_year:nth-child(even) {float:none;padding:0 0 0 20px}
+	.cont_history .innr .group_year:nth-child(odd) .tit_year {float:none;width:100%;margin:0;padding-left:36px}
+	.cont_history .innr .group_year:nth-child(even) .tit_year {float:none;margin:0;padding:0 0 0 36px}
+	.cont_history .innr .group_year:nth-child(even) .tit_year:after {right:none;left:-8px;background:url(/lgekor/asset/company/images/common/ico_m.png) -100px -100px no-repeat;background-size:250px 300px;content:''}
+	.cont_history .innr .group_year .list_year {padding-left:36px}
+	.cont_history .innr .group_year:nth-child(even) .list_year li {text-align:left;padding:6px 0 6px 45px}
+	.cont_history .innr .group_year:nth-child(even) .list_year li.tit_none {padding-left:0}
+	.cont_history .innr .group_year:nth-child(even) .list_year .tit_month {right:none;left:0}
+	.cont_history .innr .group_year.gap_up {margin-top:0}
+
+	/* [768px][�������] ����Ұ� */
+	.about_business .box_circle {padding:0 5% 6% 5%}
+	.about_business .box_circle>.circle_tit {float:none;width:100%;margin-left:0;margin-bottom:1%}
+	.wrap_milestone {margin-top:4%}
+	.wrap_milestone .wrap_title .tit_year {font-size:1em;letter-spacing:-0.05em}
+
+	/* [768px][�������] �濵�� */
+	.about_management .wrap_profile .box_profile {float:none;width:100%}
+	.about_management .wrap_profile .box_profile:nth-child(2n-1) {float:none}
+	.about_management .box_profile .profile_photo {width:48%;max-width:245px}
+	.about_management .box_profile .profile_info {width:52%}
+	.about_management .box_profile.ceo_profile {width:90%;margin:0 5% 15% 5%}
+
+	/* [768px][�������] �������ġ*/
+	.about_location .sub_txt {padding:0 5%}
+	.about_location .top_overseas .img_overseas {float:none;width:54%;margin:0 auto}
+	.about_location .top_overseas .info_overseas {float:none;width:100%}
+	.about_location .top_overseas .info_overseas .info_tit {text-align:center}
+	.about_location .addr_overseas .wrap_sel_comm {float:none;margin-bottom:3%}
+	.about_location .addr_overseas .wrap_sel_comm .sel_comm {width:100%;background-position:97% 50%}
+	.about_location .list_contact li {padding:2.5% 2% 5% 2%;font-family:'LGSmHanL'}
+	.about_location .list_contact li .tit {display:block;position:static;font-size:1em;letter-spacing:-0.03em}
+	.about_location .list_contact li:last-child {padding-bottom:2.5%}
+	.about_location .wrap_interior {padding:0 5%}
+	.about_location .wrap_interior .box_inter {margin-bottom:0}
+	.about_location .wrap_interior .box_inter > li {float:none;width:100%;margin-bottom:7%}
+	.about_location .wrap_interior .box_inter > li:nth-child(even) {padding-left:0}
+	.about_location .box_inter .tbl_comm tr th,.about_location .box_inter .tbl_comm tr td {white-space:initial;font-size:1em}
+	.about_location .wrap_interior .box_inter .top_inter .list_btnMap {max-width:initial}
+
+	/* [768px][�������] �귣�� */
+	.about_brand .brand_symbol {padding:6% 5%}
+	.about_brand .brand_symbol .img_symbol {float:none;width:54%;margin:0 auto}
+	.about_brand .brand_symbol .img_symbol .btn_fileDown {margin:2% auto;margin-bottom:0}
+	.about_brand .brand_symbol .img_symbol .btn_fileDown.file_pc {display:none}
+	.about_brand .brand_symbol .img_symbol .btn_fileDown.file_mobile {display:block}
+	.about_brand .brand_symbol .info_symbol {float:none;width:100%}
+	.about_brand .brand_symbol .info_symbol .info_txt .five_element {display:block}
+	.about_brand .brand_symbol .info_symbol .attention_txt {display:inline-block}
+	.about_brand .brand_symbol .info_symbol .info_title {margin:5% 0 3% 0}
+	.about_brand .wrap_color {padding:8% 0}
+	.about_brand .wrap_color .color_system {float:none;width:80%;margin:5% auto 0}
+	.about_brand .wrap_color .color_system:first-child {margin:0 auto}
+	.about_brand .wrap_color .color_system dt {margin-bottom:5%}
+	.about_brand .wrap_color .color_system dd {font-size:1em;text-align:center}
+
+	/* [768px][������LG] ������ö�� */
+	.design_philosophy .wrap_pyramid {height:360px}
+	.design_philosophy .wrap_pyramid .img_prm img {width:auto;height:360px}
+	.design_philosophy .wrap_pyramid .line_prm {width:58%}
+	.design_philosophy .wrap_pyramid .left_prm .line_prm:first-child {margin-top:147px}
+	.design_philosophy .wrap_pyramid .right_prm .line_prm {margin-top:192px}
+	.design_philosophy .wrap_pyramid .right_prm .line_prm:first-child {margin-top:34px}
+	.design_philosophy .wrap_pyramid .list_pyramid > li {height:75px}
+	.design_philosophy .wrap_pyramid .list_pyramid > li:first-child {height:108px}
+	.design_philosophy .wrap_pyramid .list_pyramid > li:last-child {height:87px}
+	.design_philosophy .wrap_pyramid .list_pyramid > li .tit_prm {padding-top:18px;font-size:0.875em}
+	.design_philosophy .wrap_pyramid .list_pyramid > li:first-child .tit_prm {padding-top:58px}
+	.design_philosophy .wrap_pyramid .list_pyramid > li .txt_prm {top:10px}
+	.design_philosophy .wrap_pyramid .list_pyramid > li:nth-child(odd) .txt_prm {left:77%;padding-left:30px}
+	.design_philosophy .wrap_pyramid .list_pyramid > li:nth-child(even) .txt_prm {right:77%;padding-right:30px}
+	.design_philosophy .wrap_pyramid .list_pyramid > li .txt_prm em {font-size:0.875rem}
+	.design_philosophy .wrap_pyramid .list_pyramid > li .txt_prm span {font-size:0.875rem}
+	.design_philosophy .wrap_pyramid .list_pyramid > li.design_scheme .txt_prm {top:100px;right:50%;margin-right:-66px;padding-right:0;padding-top:64px}
+	.design_philosophy .wrap_pyramid .list_pyramid > li.design_scheme .txt_prm:before {height:25px;margin-left:62px}
+	.design_philosophy .wrap_pyramid .list_pyramid > li .iden_unit > li {width:60px;height:28px;line-height:28px;font-size:0.875rem}
+
+	/* [768px][������LG] ��������Ʈ������ */
+	.design_portfolio .box_product .product_design {float:none;width:100%;margin:0 auto 5%;box-sizing:border-box}
+	.design_portfolio .box_product .explain_design {float:none;width:100%}
+	.design_portfolio .box_product .explain_design dt {text-align:center}
+	.design_portfolio .tab_portfolio li {display:none;float:none;width:100%;border-left:none;border-bottom:1px solid #fff}
+	.design_portfolio .tab_portfolio li.active {display:block}
+	.design_portfolio .tab_portfolio li.active a {background:#a50034 url(/lgekor/asset/company/images/common/tab_arr.png) 95% 50% no-repeat;background-size:15px auto}
+	.design_portfolio .tab_portfolio li a {padding:0 3%;text-align:left}
+
+	/* [768px][�����濵] �����濵�ȳ� */
+	.level_guide .guide_box .wrap_graph {min-height:320px;background-size:460px}
+	.level_guide .guide_box .wrap_graph .tit_graph {height:115px;line-height:123px}
+	.level_guide .guide_box .wrap_graph .inner {min-width:460px}
+	.level_guide .guide_box .wrap_graph .inner .box_grp .tit_grp {height:58px;margin-bottom:54px}
+	.level_guide .guide_box .wrap_graph .inner .box_grp .list_grp {padding:10px 10px 10px 15px}
+	.level_guide .guide_box .wrap_graph .inner .box_grp .list_grp li {font-size:0.875em}
+
+	/* [768px][�����濵] �ൿ���� */
+	.ethics_file .area_img {overflow:hidden;float:none;width:100%;height:0;padding-bottom:35%}
+	.ethics_file .area_img img {margin-top:-10%}
+	.ethics_file .area_list {float:none;width:100%}
+	.ethics_file .area_list .inner {position:static;height:130px}
+	.ethics_file .area_list .empty_img {display:none}
+	.ethics_file .area_list .list_fileDown {overflow:hidden;padding:3% 0}
+	.ethics_file .area_list .list_fileDown li {float:left;width:50%;height:auto;margin:0;padding:0 12%;text-align:center;box-sizing:border-box}
+	.ethics_file .area_list .list_fileDown li:first-child {margin-right:0}
+	.ethics_file .area_list .list_fileDown li:before {display:none}
+	.ethics_file .area_list .list_fileDown li .file_name {display:block;margin-bottom:5%}
+	.ethics_file .area_list .list_fileDown li .btn_fileDown {position:relative;width:80%}
+	.ethics_file .area_list .list_fileDown li .btn_fileDown:before {left:20%}
+	.level_ethics .ethics_cont .list_conduct li {padding:5%;}
+	/* .level_ethics .ethics_accor {width:96%;margin:0 auto} */
+
+}
+/********************************************************
+@media query [600px]
+********************************************************/
+@media screen and (max-width:600px){
+
+	/* [600px][����Ұ�] �������ġ */
+	.about_location .tel_val {display:inline-block}
+	.about_location .tel_pc {display:none}
+	
+	/* [600px][�����濵] �����濵���α׷� */
+	.wrap_listProgram {border:none;}
+	.wrap_listProgram .list_program:first-child {margin:0 0 5% 0;padding:0 0 5% 0}
+	.wrap_listProgram .list_program li {float:none;width:100%}
+	.wrap_listProgram .list_program li:nth-child(2) {width:100%;margin:5% 0;padding:5% 0;border:none;border-top:1px solid #dadada;border-bottom:1px solid #dadada}
+	.wrap_listProgram .list_program li:before {height:78px;}
+
+	/* [600px][�����濵] �ൿ���� */
+	.ethics_file .area_list .list_fileDown li {padding:0 9%}
+	
+	/* [600px][������LG] �����μ��� */
+	.design_center .box_center.area_organ {overflow:hidden;padding:0;background-size:20% auto;background-position:10% 0}
+	.design_center .box_center .tit_center {float:right;width:300px;height:0;margin-bottom:0;padding:5% 5% 180px 0;font-size:1.375em;line-height:1.6em;letter-spacing:-0.03em}
+	.design_center .box_center.area_organ .sub_txt {float:left;width:100%;padding:0 5%;word-break:break-all;box-sizing:border-box}
+	.design_center .box_center.area_outcome {overflow:hidden;background-size:200px auto;padding:0}
+	.design_center .box_center.area_outcome .tit_center {float:right;width:80%;padding:170px 5% 70px 0;box-sizing:border-box}
+	.design_center .box_center.area_outcome .sub_txt {float:left;width:100%;padding:0 5%;box-sizing:border-box}
+	
+}
+/********************************************************
+@media query [480px]
+********************************************************/
+@media screen and (max-width:480px){
+
+	/* [480px][����Ұ�] ���� */
+	.cont_history .innr .group_year .list_year li br {display:none}
+	
+	/* [480px][����Ұ�] �귣�� */
+	.about_brand .brand_symbol .info_symbol .info_txt .five_element {display:inline}
+	.about_brand .brand_symbol .info_symbol .info_txt.gap_top {margin-top:3%}
+	
+	/* [480px][������LG] ������ö�� */
+	.design_philosophy .wrap_pyramid {padding-bottom:0}
+	.design_philosophy .tit_paragraph {padding:0 5%}
+	.design_philosophy .wrap_pyramid .img_prm img {height:240px}
+	.design_philosophy .wrap_pyramid .right_prm .line_prm {margin-top:127px}
+	.design_philosophy .wrap_pyramid .right_prm .line_prm:first-child {margin-top:16px}
+	.design_philosophy .wrap_pyramid .left_prm .line_prm:first-child {margin-top:90px}
+	.design_philosophy .wrap_pyramid .list_pyramid > li {height:54px;margin-bottom:0;font-size:0.8rem;letter-spacing:-0.03em}
+	.design_philosophy .wrap_pyramid .list_pyramid > li:first-child {height:74px}
+	.design_philosophy .wrap_pyramid .list_pyramid > li:last-child {height:58px}
+	.design_philosophy .wrap_pyramid .list_pyramid > li .tit_prm {padding-top:8px}
+	.design_philosophy .wrap_pyramid .list_pyramid > li:first-child .tit_prm {padding-top:36px}
+	.design_philosophy .wrap_pyramid .list_pyramid > li .iden_unit {margin-top:-2%}
+	.design_philosophy .wrap_pyramid .list_pyramid > li .iden_unit > li {width:50px;height:20px;line-height:20px;font-size:0.65rem}
+	.design_philosophy .wrap_pyramid .list_pyramid > li .txt_prm {top:-8px}
+	.design_philosophy .wrap_pyramid .list_pyramid > li:nth-child(even) .txt_prm {right:74%;padding-right:24px}
+	.design_philosophy .wrap_pyramid .list_pyramid > li .txt_prm em {font-size:0.8rem}
+	.design_philosophy .wrap_pyramid .list_pyramid > li .txt_prm span {font-size:0.8rem}
+	.design_philosophy .wrap_pyramid .list_pyramid > li.design_scheme .txt_prm {top:70px;right:50%;margin-right:-58px;padding-right:0}
+	.design_philosophy .wrap_pyramid .list_pyramid > li.design_scheme .txt_prm:before {margin-left:54px}
+
+	/* [480px][�����濵] �����濵�ȳ� */
+	.level_guide .guide_box .wrap_graph {min-height:auto;background-size:94%}
+	.level_guide .guide_box .wrap_graph .tit_graph {height:0;line-height:0;padding:12% 0 12.8% 0;font-size:1.125em}
+	.level_guide .guide_box .wrap_graph .inner {min-width:auto;width:94%}
+	.level_guide .guide_box .wrap_graph .inner .box_grp .tit_grp {height:0;margin-bottom:38%;padding:0 0 4% 0;font-size:0.85em}
+	.level_guide .guide_box .wrap_graph .inner .box_grp .list_grp {min-height:110px;padding:10px;background:#d9dbde}
+	.level_guide .guide_box .wrap_graph .inner .box_grp .list_grp li {font-size:0.875em;word-break:break-all}
+	
+	/* [480px][�����濵] �ൿ���� */
+	.ethics_file .area_list .list_fileDown li {padding:0 4%}
+	.ethics_file .area_list .list_fileDown li .file_name {font-size:0.875rem}
+	
+	/* [480px][������LG] �����μ��� */
+	.design_center .box_center.area_organ {background-size:100px auto;background-position:5% 0}
+	.design_center .box_center .tit_center {width:58%;padding:5% 5% 180px 0;font-size:1.25em}
+
+}
